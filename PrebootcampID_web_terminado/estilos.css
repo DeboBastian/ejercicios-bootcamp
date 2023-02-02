@@ -1,0 +1,817 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:ital,wght@0,100;0,400;0,500;0,700;1,200;1,400&display=swap');
+
+
+body{
+    font-size: 1em;
+    font-family: Libre+Baskerville;
+    font-weight: 700;
+}
+
+.subtitulos {
+    z-index: 1;
+    color: black;
+    font-size: 40px;
+}
+
+div.logo{
+    padding-left: 5px;
+    float: left;
+}
+
+
+
+    #menu{
+        float: right;
+        color:gray;
+        padding-top: 12px;
+        padding-right: 10px;
+    }
+
+    #menu a{
+        text-decoration: none;
+        color: gray;
+        font-family: Montserrat;
+        padding: 15px;
+    }
+
+.barra{
+    height: 50px;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+}
+div.inicio {
+    background-image: url(./images/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+div.inicio::before{
+    content: "";
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    background-size: cover;
+    opacity: 0.3;
+    position: absolute;
+}
+
+#hello {
+    z-index: 1;
+    padding-left: 20%;
+    padding-top: 10%;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.147);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Montserrat;
+
+
+}
+
+#titulo {
+    color: white;
+    font-size: 50px;
+    font-weight: 400 bold;
+    z-index: 1;
+    padding-left: 20%;
+    padding-top: 2px;
+
+}
+
+#flecha {
+    position: absolute;
+    right: 2%;
+    bottom: 4%;
+    color: white;
+}
+
+div.about {
+    background-image: url(./images/profile-bg.jpg);
+    background-size: cover;
+    background-position: 20%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+div.about::before {
+    content: "";
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(210, 210, 210, 0.878);
+    background-size: cover;
+    opacity: 0.9;
+    position: absolute;
+
+}
+
+.AB{
+    z-index: 1;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 10%;
+    font-family: Montserrat;
+    color: rgb(88, 7, 7);
+    font-size: medium;
+    text-align: left;
+}
+.moreAB {
+    z-index: 1;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 2%;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+}
+
+.ABsub {
+    z-index: 1;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    color: rgb(87, 87, 87);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.ABtxt {
+    z-index: 1;
+    padding-left: 30%;
+    padding-right: 10%;
+    color: rgb(87, 87, 87);
+    font-weight: 400;
+    font-size: larger;
+    text-align: left;
+
+}
+
+div.services {
+    width: 100%;
+    height: 1000px;
+    color:rgb(87, 87, 87);
+}
+
+.AB- {
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 10%;
+    font-family: Montserrat;
+    color: rgb(88, 7, 7);
+    font-size: medium;
+    text-align: left;
+}
+
+.moreAB- {
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 5px;
+    padding-bottom: 2%;
+    color: black;
+    font-size: 40px;
+    text-align: left;
+}
+
+.ABsub- {
+    z-index: 1;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    color: rgb(87, 87, 87);
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.ABtxt- {
+    
+    padding-right: 20%;
+    padding-bottom: 15px;
+    color: rgb(87, 87, 87);
+    font-weight: 100;
+    font-size: large;
+    text-align: left;
+    margin-left: 10%;
+    padding-left: 50px;
+}
+
+#lenguajes{
+    font-size: medium;
+    font-family: Montserrat;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 60px;
+    
+}
+
+#simbol_len{
+float: left;
+margin-left: 10%;
+padding-right: 18px;
+padding-top: 10px;
+}
+
+li {
+    font-size: 220%;
+    color: rgb(91, 24, 24);
+    list-style: none;
+}
+.skillset{
+    margin-top: 2%;
+    background-image: url(./images/skills-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.skillset::before {
+    content: "";
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    background-size: cover;
+    opacity: 0.8;
+    position: absolute;
+   
+}
+ 
+#uno, #dos, #tres{
+    z-index: 1;
+    padding-left: 20%;
+    padding-right: 50%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+#uno{
+    color: rgba(255, 115, 0, 0.815);
+    padding-top: 10%;
+    padding-left: 20%;
+    font-size: 100%;
+    font-family: Montserrat;
+    font-weight: 400 bold;
+}
+
+#dos{
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+}
+
+#tres{
+    z-index: 1;
+    color: rgb(87, 87, 87);
+    font-weight: 400;
+    font-size: larger;
+}
+
+.fondoportfolio{
+    background-color: rgb(241, 239, 239);
+  
+}
+
+div.stats{
+background-color: black;
+}
+
+h2.articles{
+color: white;
+padding-top: 10%;
+    padding-left: 20%;
+    font-size: 100%;
+}
+
+
+h3{
+    color: gray;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+   
+    color: grey;
+        font-weight: 400;
+        font-size: larger;
+}
+
+.dividirPantalla article {
+    width: 50%;
+}
+
+.dividirPantalla article:first-child {
+    float: left;
+}
+
+.dividirPantalla article:last-child {
+    float: right;
+}
+
+.dividirPantalla{
+    width: 100%;
+    height: 550px;
+
+}
+
+.experience {
+    width: 100%;
+    height: 1000px;
+    margin-bottom: 10%;
+}
+
+.c-principal h2 { 
+    text-align: center;
+    width: 100%;
+    font-size: medium;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: brown;
+    font-family: Montserrat;
+}
+
+.c-principal .subtitulos{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.c-principal h3{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+.c-uno h2, .c-dos h2{
+text-align: left;
+width: 100%;
+font-size: medium;
+padding-left: 16%;
+padding-top: 5%;
+color: brown;
+font-family: Montserrat;
+}
+
+.c-uno{
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 3%;
+    position: absolute;
+    
+}
+
+.fechas {
+    color: gray;
+    font-family: Montserrat;
+    font-weight: 100 bold;
+    font-size: small;
+    padding-left: 7%;
+}
+
+.donde {
+    color: black;
+    font-family: Montserrat;
+    font-weight: 100 bold;
+    font-size: large;  
+    padding-top: 5px; 
+    padding-left: 7%;
+}
+
+h6 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-weight: 100 bold;
+    font-size: small;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    padding-left: 7%;
+}
+.c-dos{
+    width: 50%;
+    height: 500px;
+    float: right;
+    padding-top: 2%;
+    padding-right: 18%;
+padding-left: 3%;
+}
+
+.interior p{
+padding-left: 7%;
+}
+
+#graduation{
+color: white;
+box-sizing: border-box;
+padding: 10px;
+border-radius: 50%;
+border-width: 50px;
+border-color: brown;
+background-color: brown;
+float: left;
+margin-top: 35px;
+}
+
+#maletin{
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 50%;
+    border-width: 50px;
+    border-color: brown;
+    background-color: brown;
+    float: left;
+    margin-top: 35px;
+}
+
+hr.barra-exp{
+    color: rgba(238, 237, 237, 0.69);
+    border-color: rgba(220, 219, 219, 0.486);
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 2%;
+    opacity: 0.5;
+}
+
+hr.vertical1{
+        height: 655px;
+        width: .1vw;
+        border-width: 0;
+        color: rgb(69, 68, 68);
+        background-color: rgb(81, 79, 79);
+        float: left;
+        margin-top: 70px;
+        margin-left: 17px;
+        position: absolute;
+        opacity: 0.2;
+        z-index: -1;
+}
+
+hr.vertical2 {
+    height: 656px;
+    width: .1vw;
+    border-width: 0;
+    color: rgb(69, 68, 68);
+    background-color: rgb(81, 79, 79);
+    float: left;
+    margin-top: 70px;
+    margin-left: 21px;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.interior{
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+section.jpg img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section.jpg{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 850px;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+section.jpg article{
+    width: 50%;
+}
+
+.portfolio h2{
+text-align: center;
+width: 100%;
+font-size: medium;
+padding-top: 5%;
+padding-left: 10%;
+padding-right: 10%;
+color: brown;
+font-family: Montserrat;
+}
+
+.portfolio h4{
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+}
+.portfolio {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+.flex{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+
+.flex-n{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.numbers{
+    padding-top: 5%;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    
+}
+
+.numbers h2{
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 200 bold;
+}
+
+.numbers hr{
+    width: 50%;
+    margin: 0 auto;
+   opacity: 0.3;
+    margin-top: 10%;
+    margin-bottom: 10%;
+   
+}
+
+.flex .flex-n p{
+    font-family: Montserrat;
+    width: 700;
+}
+
+.contacto{
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.contacto section h2{
+    
+    text-align: center;
+    width: 100%;
+    font-size: medium;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color:  rgb(245, 52, 4);
+    font-family: Montserrat;
+}
+.contacto h4{
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 250%;
+    width: 850px;
+}
+
+.contacto section h3{
+padding-bottom: 20px;
+}
+
+ input{
+width: 450px;
+height: 30px;
+margin: 5px;
+outline: none;
+    background-color: rgba(221, 255, 238, 0);
+        border-radius: 1px;
+        border-color: rgba(22, 20, 20, 0.5);
+        font-family: Montserrat;
+        font-weight: 700;
+        color: white;
+        padding: 10px;
+}
+ 
+form{
+    margin: 0 auto;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-final h3{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5%;
+}
+
+#textarea{
+width: 450px;
+    margin: 5px;
+    outline: none;
+    background-color: rgba(221, 255, 238, 0);
+    border-radius: 1px;
+    border-color: rgba(22, 20, 20, 0.5);
+        font-family: Montserrat;
+        font-weight: 700;
+        padding: 10px;
+}
+  
+::placeholder{
+color: rgb(169, 169, 169);
+font-family: Montserrat;
+font-weight: 700;
+font-size: small;
+}
+#submit{
+background-color: rgba(189, 86, 17, 0.756);
+height: 45px;
+font-family: Montserrat;
+    font-weight: 200 bolder;
+    font-size: small;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+div.fondo-final{
+background-image: url(./images/profile-bg.jpg);
+background-size: cover;
+width: 100%;
+height: 850px;
+background-repeat: no-repeat;
+box-sizing: border-box;
+background-position: 20%;
+}
+
+div.contacto {
+    width: 100%;
+    height: 850px;
+   background-color: black;
+   opacity: 0.8;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.top-footer{
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+    width: 100%;
+
+}
+
+div.bottom-footer {
+    color: gray;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 100 bold;
+    font-size: small;
+    margin-top: 20px;
+    
+}
+/* 
+.iconos-final a{
+    text-decoration: none;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    color: grey;
+    size: 150%;
+    margin: 10px;
+} */
+/* 
+.iconos i{
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    color: grey;
+    size: 150%;
+    position: relative;
+    display: inline;
+    margin: 10px;
+    size:150%;
+    
+} */
+
+#iconos-final{
+    display: flex;
+    size: 120%;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+/* #iconos-final li{
+text-align: center;
+justify-content: center;
+justify-items: center;
+margin: 0 auto;
+} */
+
+.top-footer li i{
+    width: calc(100% - 60px);
+    font-size: 120%;
+    color: gray;
+    text-align: center;
+justify-content: center;
+justify-items: center;
+margin: 0 auto;    
+}
+
+.contact-final article {
+    width: calc(100%-30px);
+    box-sizing: border-box;
+    height: 150px;
+    float: left;
+    display: block;
+    padding-top: 5%;
+    padding-left: 60px;
+    padding-right: 30px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.contact-final article::after {
+    content: "";
+    height: 0;
+    width: 100%;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+        align-content: center;
+        align-items: center;
+        position: absolute;
+         text-decoration: none;
+}
+
+.where p {
+color: gray;
+}
+
+.emailAB p{
+color: gray;
+}
+
+.email-call p{
+    color:gray;
+}
+.contact-final p{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: small;
+    text-decoration: none;
+}
+
+
+.contact-final a{
+    text-decoration: none;
+}
