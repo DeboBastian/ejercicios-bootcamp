@@ -705,52 +705,18 @@ div.bottom-footer {
     font-family: Montserrat;
     font-weight: 100 bold;
     font-size: small;
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
-/* 
-.iconos-final a{
-    text-decoration: none;
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    color: grey;
-    size: 150%;
-    margin: 10px;
-} */
-/* 
-.iconos i{
-    width: 100%;
-    text-decoration: none;
-    text-align: center;
-    align-items: center;
-    margin: 0 auto;
-    color: grey;
-    size: 150%;
-    position: relative;
-    display: inline;
-    margin: 10px;
-    size:150%;
-    
-} */
+
 
 #iconos-final{
-    display: flex;
-    size: 120%;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-right: 30px;
-    margin: 0 auto;
+display: flex;
+justify-content: space-around;
+width: 30%;
+margin: 0 auto;
 }
 
-/* #iconos-final li{
-text-align: center;
-justify-content: center;
-justify-items: center;
-margin: 0 auto;
-} */
 
 .top-footer li i{
     width: calc(100% - 60px);
@@ -759,11 +725,11 @@ margin: 0 auto;
     text-align: center;
 justify-content: center;
 justify-items: center;
-margin: 0 auto;    
+margin: 0 auto;
 }
 
 .contact-final article {
-    width: calc(100%-30px);
+    
     box-sizing: border-box;
     height: 150px;
     float: left;
